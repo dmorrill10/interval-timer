@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Interval Timer</title>
+    <link href="static/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="static/deps/semantic/dist/semantic.min.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="static/deps/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="static/deps/semantic/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="static/deps/buzz/dist/buzz.min.js"></script>
+  </head>
+
+  <body>
+    <div class="ui attached stackable menu">
+      <div class="ui container timer0">
+        <div class="item">
+          <div class="ui right labeled input">
+            <input class="hours" type="number", min="0", value="0">
+            <div class="ui basic label">h</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="ui right labeled input">
+            <input class="minutes" type="number", min="0", max="59" value="0">
+            <div class="ui basic label">m</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="ui right labeled input">
+            <input class="seconds" type="number", min="0", max="59" value="1">
+            <div class="ui basic label">s</div>
+          </div>
+        </div>
+        <div class="item time-remaining">
+        </div>
+        <div class="right item">
+          <button class="ui right button start" type="submit">Start</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="static/js/main.js"></script>
+</html>
