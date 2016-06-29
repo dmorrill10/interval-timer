@@ -1,0 +1,25 @@
+{
+  "name": "interval-timer",
+  "version": "1.0.0",
+  "description": "A simple interval timer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/dmorrill10/interval-timer.git"
+  },
+  "keywords": [
+    "timer",
+    "interval",
+    "meditation",
+    "stretching"
+  ],
+  "author": "Dustin Morrill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmorrill10/interval-timer/issues"
+  },
+  "homepage": "https://github.com/dmorrill10/interval-timer#readme"
+}

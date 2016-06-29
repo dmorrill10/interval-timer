@@ -1,0 +1,28 @@
+{
+  "name": "interval-timer",
+  "description": "A simple interval timer.",
+  "main": "index.js",
+  "authors": [
+    "Dustin Morrill"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "timer",
+    "interval",
+    "meditation",
+    "stretching"
+  ],
+  "homepage": "https://github.com/dmorrill10/interval-timer",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "semantic": "^2.1.8",
+    "buzz": "^1.2.0"
+  }
+}
